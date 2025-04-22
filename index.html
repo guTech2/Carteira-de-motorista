@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Permissão para Dirigir</title>
+</head>
+<body>
+    <center>
+        <h1>Permissão para dirigir</h1>
+
+        <script>
+            var carteiraDeMotorista = prompt ("Você possui carteira de Motorista (Sim ou Não)")
+            var idade = parseInt(prompt("Digite sua idade"))
+
+            // Estrutura lógica - E
+            if (carteiraDeMotorista == "Sim" || "sim" && idade >= 18) {
+                document.write("Você pode dirigir");
+            }
+            else {
+                document.write ("Você não pode dirigir")
+            }
+        </script>
+    </center>
+</body>
+</html>
